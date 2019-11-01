@@ -1,0 +1,80 @@
+INFO [11-01|15:01:58.103] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [11-01|15:02:28.162] Starting peer-to-peer node               instance=Geth/v1.9.5-stable-a1c09b93/darwin-amd64/go1.12.6
+WARN [11-01|15:02:28.162] Sanitizing invalid miner gas price       provided=0 updated=0
+INFO [11-01|15:02:28.163] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [11-01|15:02:28.163] Allocated cache and file handles         database=/dataDir/geth/chaindata cache=512.00MiB handles=5120
+INFO [11-01|15:02:28.419] Opened ancient database                  database=/dataDir/geth/chaindata/ancient
+INFO [11-01|15:02:28.422] Initialised chain configuration          config="{ChainID: 15001 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: <nil> Istanbul: <nil> Engine: unknown}"
+INFO [11-01|15:02:28.423] Disk storage enabled for ethash caches   dir=/dataDir/geth/ethash count=3
+INFO [11-01|15:02:28.423] Disk storage enabled for ethash DAGs     dir=/Users/vaibhavchellani/Library/Ethash count=2
+INFO [11-01|15:02:28.426] Initialising Ethereum protocol           versions=[63] network=15001 dbversion=7
+INFO [11-01|15:02:28.842] Loaded most recent local header          number=0 hash=389a63…44924c td=1 age=5mo2w23h
+INFO [11-01|15:02:28.843] Loaded most recent local full block      number=0 hash=389a63…44924c td=1 age=5mo2w23h
+INFO [11-01|15:02:28.844] Loaded most recent local fast block      number=0 hash=389a63…44924c td=1 age=5mo2w23h
+INFO [11-01|15:02:28.848] Loaded local transaction journal         transactions=0 dropped=0
+INFO [11-01|15:02:28.851] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-01|15:02:28.885] Allocated fast sync bloom                size=512.00MiB
+INFO [11-01|15:02:28.889] Initialized fast sync bloom              items=10 errorrate=0.000 elapsed=2.019ms
+INFO [11-01|15:02:29.003] New local node record                    seq=17 id=5e647445eee4c6a5 ip=127.0.0.1 udp=30303 tcp=30303
+INFO [11-01|15:02:29.004] Started P2P networking                   self=enode://5838a8518cc58c953f6a7a432f11f1d8b107d7cd028dd6e2a201107da912bf4c4b735c1ec859b9eed27df2a4b5783b4cf1f715dcbd45154f182fa8bb5986a472@127.0.0.1:30303
+INFO [11-01|15:02:29.007] IPC endpoint opened                      url=/dataDir/geth.ipc
+INFO [11-01|15:02:29.008] HTTP endpoint opened                     url=http://0.0.0.0:8545 cors=* vhosts=*
+INFO [11-01|15:02:31.362] New local node record                    seq=18 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|15:02:32.527] Unlocked account                         address=0xcfbC26591Af0DAe88aa7AE14D0EcAceD8f679976
+INFO [11-01|15:02:32.528] Transaction pool price threshold updated price=0
+INFO [11-01|15:02:32.528] Updated mining threads                   threads=0
+INFO [11-01|15:02:32.528] Transaction pool price threshold updated price=0
+INFO [11-01|15:02:32.528] Etherbase automatically configured       address=0xcfbC26591Af0DAe88aa7AE14D0EcAceD8f679976
+INFO [11-01|15:02:32.528] Commit new mining work                   number=1 sealhash=32bdb4…ba760a uncles=0 txs=0 gas=0 fees=0 elapsed=274.962µs
+INFO [11-01|15:09:40.483] New local node record                    seq=19 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1028  tcp=30303
+INFO [11-01|15:14:44.434] New local node record                    seq=20 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|15:14:44.515] New local node record                    seq=21 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1028  tcp=30303
+INFO [11-01|15:14:45.947] New local node record                    seq=22 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|15:32:20.172] New local node record                    seq=23 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1028  tcp=30303
+INFO [11-01|15:32:20.219] New local node record                    seq=24 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|15:32:20.343] New local node record                    seq=25 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1028  tcp=30303
+INFO [11-01|15:48:54.398] New local node record                    seq=26 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|15:48:55.145] New local node record                    seq=27 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1028  tcp=30303
+INFO [11-01|15:48:55.898] New local node record                    seq=28 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:03:53.183] New local node record                    seq=29 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:10:45.800] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [11-01|17:12:24.709] New local node record                    seq=30 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:22:53.758] New local node record                    seq=31 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:12.142] New local node record                    seq=32 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:12.762] New local node record                    seq=33 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:24.554] New local node record                    seq=34 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:24.636] New local node record                    seq=35 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:26.656] New local node record                    seq=36 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:28.165] New local node record                    seq=37 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:28.607] New local node record                    seq=38 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:33.856] New local node record                    seq=39 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:48.539] New local node record                    seq=40 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:49.450] New local node record                    seq=41 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:52.167] New local node record                    seq=42 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:52.475] New local node record                    seq=43 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:52.522] New local node record                    seq=44 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:53.676] New local node record                    seq=45 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:24:55.184] New local node record                    seq=46 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:55.503] New local node record                    seq=47 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:24:58.677] New local node record                    seq=48 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:25:00.186] New local node record                    seq=49 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:25:04.953] New local node record                    seq=50 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:04.456] New local node record                    seq=51 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:32.542] New local node record                    seq=52 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:32.630] New local node record                    seq=53 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:32.951] New local node record                    seq=54 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:33.335] New local node record                    seq=55 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:33.489] New local node record                    seq=56 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:33.763] New local node record                    seq=57 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:34.146] New local node record                    seq=58 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:37.171] New local node record                    seq=59 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:37.487] New local node record                    seq=60 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:37.736] New local node record                    seq=61 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:38.397] New local node record                    seq=62 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:38.689] New local node record                    seq=63 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:38.999] New local node record                    seq=64 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:39.247] New local node record                    seq=65 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:40.116] New local node record                    seq=66 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:40.479] New local node record                    seq=67 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
+INFO [11-01|17:28:42.777] New local node record                    seq=68 id=5e647445eee4c6a5 ip=106.51.83.192 udp=1029  tcp=30303
+INFO [11-01|17:28:42.893] New local node record                    seq=69 id=5e647445eee4c6a5 ip=106.51.83.192 udp=30303 tcp=30303
