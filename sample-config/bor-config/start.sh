@@ -14,7 +14,7 @@ geth --datadir $INSTANCE_DIR \
   --rpcport 8545 \
   --ipcpath $INSTANCE_DIR/geth.ipc \
   --rpcapi 'personal,db,eth,net,web3,txpool,miner,admin' \
-  --networkid '15001' \
+  --networkid '15002' \
   --gasprice '0' \
   --keystore ./keystore \
   --unlock $ADDRESS \
