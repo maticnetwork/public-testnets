@@ -1,12 +1,15 @@
 #!/usr/bin/env sh
 
 ADDRESS=0xcfbc26591af0dae88aa7ae14d0ecaced8f679976
-INSTANCE_DIR=/dataDir
+INSTANCE_DIR=$PWD/dataDir
+BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 
+$BUILD_DIR/geth --datadir $INSTANCE_DIR init genesis.json
 set -x #echo on
 
 mkdir -p logs
-geth --datadir $INSTANCE_DIR \
+
+$BUILD_DIR/geth --datadir $INSTANCE_DIR \
   --port 30303 \
   --rpc --rpcaddr '0.0.0.0' \
   --rpcvhosts '*' \
@@ -21,4 +24,3 @@ geth --datadir $INSTANCE_DIR \
   --password password.txt \
   --allow-insecure-unlock \
   --mine > logs/bor.log 2>&1 &
-
