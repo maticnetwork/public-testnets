@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-ADDRESS=0xcfbc26591af0dae88aa7ae14d0ecaced8f679976
+ADDRESS=0x6c468CF8c9879006E22EC4029696E005C2319C9D
 INSTANCE_DIR=$PWD/dataDir
 BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 
