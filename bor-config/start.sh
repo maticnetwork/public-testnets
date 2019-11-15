@@ -1,12 +1,15 @@
 #!/usr/bin/env sh
 
-ADDRESS=0xcfbc26591af0dae88aa7ae14d0ecaced8f679976
-INSTANCE_DIR=/dataDir
+ADDRESS=0xcfbC26591Af0DAe88aa7AE14D0EcAceD8f679976
+INSTANCE_DIR=$PWD/dataDir
+BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 
-set -x #echo on
+$BUILD_DIR/geth --datadir $INSTANCE_DIR init genesis.json
+# set -x #echo on
 
 mkdir -p logs
-geth --datadir $INSTANCE_DIR \
+
+$BUILD_DIR/geth --datadir $INSTANCE_DIR \
   --port 30303 \
   --rpc --rpcaddr '0.0.0.0' \
   --rpcvhosts '*' \
@@ -22,3 +25,4 @@ geth --datadir $INSTANCE_DIR \
   --allow-insecure-unlock \
   --mine > logs/bor.log 2>&1 &
 
+echo "Node started! Logs are being written to logs/bor.log"
