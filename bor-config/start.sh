@@ -4,12 +4,13 @@ ADDRESS=0xcfbC26591Af0DAe88aa7AE14D0EcAceD8f679976
 INSTANCE_DIR=$PWD/dataDir
 BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 
-$BUILD_DIR/geth --datadir $INSTANCE_DIR init genesis.json
+$BUILD_DIR/bor --datadir $INSTANCE_DIR init genesis.json
 # set -x #echo on
+
 
 mkdir -p logs
 
-$BUILD_DIR/geth --datadir $INSTANCE_DIR \
+$BUILD_DIR/bor --datadir $INSTANCE_DIR \
   --port 30303 \
   --rpc --rpcaddr '0.0.0.0' \
   --rpcvhosts '*' \
