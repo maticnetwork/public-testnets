@@ -7,6 +7,7 @@ BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 $BUILD_DIR/bor --datadir $INSTANCE_DIR init genesis.json
 # set -x #echo on
 
+touch $INSTANCE_DIR/bor/static-nodes.json
 
 mkdir -p logs
 

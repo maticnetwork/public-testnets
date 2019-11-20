@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-10-30T11:21:20.524647Z",
+  "genesis_time": "2019-11-20T05:43:36.78515Z",
   "chain_id": "heimdall-Kzx2Q4",
   "consensus_params": {
     "block": {
@@ -141,7 +141,12 @@
           "last_updated": 0,
           "accum": 0
         }
-      }
+      },
+      "val_rewards": {
+        "1": 0
+      },
+      "checkpoint_reward": 1000000000000000000,
+      "proposer_bonus_percent": 10
     },
     "clerk": {
       "event_records": []
