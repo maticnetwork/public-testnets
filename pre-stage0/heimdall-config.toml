@@ -7,7 +7,7 @@
 eth_RPC_URL = "https://ropsten.infura.io/v3/73d0b3b9a4b2499da81c71a2b2a473a9"
 
 # RPC endpoint for bor chain
-bor_RPC_URL = "http://localhost:8545"
+bor_RPC_URL = "http://34.202.53.230:8545"
 
 
 # RPC endpoint for tendermint
