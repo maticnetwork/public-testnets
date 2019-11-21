@@ -1,0 +1,63 @@
+# This is a TOML config file.
+# For more information, see https://github.com/toml-lang/toml
+
+##### RPC configrations #####
+
+# RPC endpoint for ethereum chain
+eth_RPC_URL = "https://ropsten.infura.io/v3/73d0b3b9a4b2499da81c71a2b2a473a9"
+
+# RPC endpoint for bor chain
+bor_RPC_URL = "http://34.202.53.230:8545"
+
+
+# RPC endpoint for tendermint
+tendermint_RPC_URL = "http://0.0.0.0:26657"
+
+##### Chain ID configration #####
+
+# Bor chain ID
+bor_chain_id = "15001" 
+
+
+##### MQTT and Rest Server Config #####
+
+# MQTT endpoint
+amqp_url = "amqp://guest:guest@localhost:5672/" 
+
+# Heimdall REST server endpoint
+heimdall_rest_server = "http://0.0.0.0:1317" 
+
+##### Contract Addresses #####
+
+### Eth Chain Contracts 
+stakemanager_contract = "0x91a774537875F3F5F16E1f9Bb7A71f5E6c343E1E" 
+rootchain_contract = "0xC9306DcEE54D43950A07F3E0234d82d5fe5d08fD" 
+state_sender_contract = "0x4ADe12365f825a844F4F3a8c4Db348a487A840dc" 
+
+### Bor Chain Contracts
+state_receiver_contract = "0000000000000000000000000000000000001001" 
+validator_set_contract = "0000000000000000000000000000000000001000" 
+
+
+##### Intervals #####
+child_chain_block_interval = "10000" 
+
+## Bridge Poll Intervals 
+checkpoint_poll_interval = "1m0s" 
+syncer_poll_interval = "1m0s"
+noack_poll_interval = "16m50s"
+
+
+##### Checkpoint Length Config #####
+avg_checkpoint_length = "256"
+max_checkpoint_length = "1024"
+
+##### Timeout Config #####
+
+no_ack_wait_time = "30m0s"
+checkpoint_buffer_time = "16m40s"
+
+##### Transaction Confirmations  #####
+
+confirmation_blocks = "6"
+
