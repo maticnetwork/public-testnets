@@ -4,9 +4,14 @@ This repo collects the genesis and configuration files for the various Matic tes
 
 # Getting Started
 
-To get started with the latest testnet, see the docs.
+To get started with the latest testnet, see the [docs](https://docs.matic.network/staking/participate-in-counter-stake/).
 
 # Testnet Status
+
+## Pre-Stage-0
+Download the genesis file and other configrations from [here](https://github.com/maticnetwork/public-testnets/tree/master/pre-stage0)
+
+Seed nodes are available [here](https://github.com/maticnetwork/public-testnets/blob/master/pre-stage0/seeds.txt)
 
 ## Stage 0
 
