@@ -1,0 +1,256 @@
+{
+  "genesis_time": "2019-11-26T06:22:11.272719Z",
+  "chain_id": "heimdall-UeagH",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": ["secp256k1"]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "accounts": [
+      {
+        "address": "0xdef49d88002c432f7512c25a62799f89c904da54",
+        "coins": [
+          {
+            "denom": "vetic",
+            "amount": "1000"
+          }
+        ],
+        "sequence_number": 0,
+        "account_number": 0
+      },
+      {
+        "address": "0xe4b101f530f4ac942fcc49c12ef41ad1ed7ecd4b",
+        "coins": [
+          {
+            "denom": "vetic",
+            "amount": "1000"
+          }
+        ],
+        "sequence_number": 0,
+        "account_number": 1
+      },
+      {
+        "address": "0xe7ea093fc214b7f758b415a4474182599afec0c6",
+        "coins": [
+          {
+            "denom": "vetic",
+            "amount": "1000"
+          }
+        ],
+        "sequence_number": 0,
+        "account_number": 2
+      }
+    ],
+    "gentxs": null,
+    "auth": {
+      "collected_fees": [],
+      "params": {
+        "max_memo_characters": 256,
+        "tx_sig_limit": 7,
+        "tx_size_cost_per_byte": 10,
+        "sig_verify_cost_ed25519": 590,
+        "sig_verify_cost_secp256k1": 1000
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "supply": {
+      "supply": {
+        "total": []
+      }
+    },
+    "bor": {
+      "sprint_duration": 64,
+      "span_duration": 256,
+      "producer_count": 4,
+      "spans": [
+        {
+          "span_id": 0,
+          "start_block": 0,
+          "end_block": 255,
+          "validator_set": {
+            "validators": [
+              {
+                "ID": 1,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10,
+                "pubKey": "0x04c190d03ec6ca448617bb2a0d20cf3f9df922b87ecef79fc18aa7bbc9afc2f67c0109c706809f5cee30290433f08611af2bc0b2ec813a8cbec3fb7729e39cf71f",
+                "signer": "0xdef49d88002c432f7512c25a62799f89c904da54",
+                "last_updated": 0,
+                "accum": 0
+              },
+              {
+                "ID": 2,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "pubKey": "0x0434a64e5c88679fc8002ad9fa5d734be32d71b1a2c5d74bc910e63a2613046442c82c43044f2bd5b2946eb8f08dd38d473ef286df6d7e826bdbb5c4f789f57161",
+                "power": 10,
+                "signer": "0xe4b101f530f4ac942fcc49c12ef41ad1ed7ecd4b",
+                "last_updated": 0,
+                "accum": 0
+              },
+              {
+                "ID": 3,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10,
+                "pubKey": "0x046127174fdd2f37123686274431dd50e2a628ee1013d62c3e1490c7719f51be6e2ee002b0693943d34d437302d8ec5d3af6a369262180764b86be0403209397cd",
+                "signer": "0xe7ea093fc214b7f758b415a4474182599afec0c6",
+                "last_updated": 0,
+                "accum": 0
+              }
+            ],
+            "proposer": {
+              "ID": 1,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10,
+              "pubKey": "0x04c190d03ec6ca448617bb2a0d20cf3f9df922b87ecef79fc18aa7bbc9afc2f67c0109c706809f5cee30290433f08611af2bc0b2ec813a8cbec3fb7729e39cf71f",
+              "signer": "0xdef49d88002c432f7512c25a62799f89c904da54",
+              "last_updated": 0,
+              "accum": 0
+            }
+          },
+          "selected_producers": [
+            {
+              "ID": 1,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10,
+              "pubKey": "0x04c190d03ec6ca448617bb2a0d20cf3f9df922b87ecef79fc18aa7bbc9afc2f67c0109c706809f5cee30290433f08611af2bc0b2ec813a8cbec3fb7729e39cf71f",
+              "signer": "0xdef49d88002c432f7512c25a62799f89c904da54",
+              "last_updated": 0,
+              "accum": 0
+            },
+            {
+              "ID": 2,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "pubKey": "0x0434a64e5c88679fc8002ad9fa5d734be32d71b1a2c5d74bc910e63a2613046442c82c43044f2bd5b2946eb8f08dd38d473ef286df6d7e826bdbb5c4f789f57161",
+              "power": 10,
+              "signer": "0xe4b101f530f4ac942fcc49c12ef41ad1ed7ecd4b",
+              "last_updated": 0,
+              "accum": 0
+            },
+            {
+              "ID": 3,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10,
+              "pubKey": "0x046127174fdd2f37123686274431dd50e2a628ee1013d62c3e1490c7719f51be6e2ee002b0693943d34d437302d8ec5d3af6a369262180764b86be0403209397cd",
+              "signer": "0xe7ea093fc214b7f758b415a4474182599afec0c6",
+              "last_updated": 0,
+              "accum": 0
+            }
+          ],
+          "bor_chain_id": "15002"
+        }
+      ]
+    },
+    "checkpoint": {
+      "buffered_checkpoint": null,
+      "last_no_ack": 0,
+      "ack_count": 0,
+      "headers": null
+    },
+    "staking": {
+      "validators": [
+        {
+          "ID": 1,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10,
+          "pubKey": "0x04c190d03ec6ca448617bb2a0d20cf3f9df922b87ecef79fc18aa7bbc9afc2f67c0109c706809f5cee30290433f08611af2bc0b2ec813a8cbec3fb7729e39cf71f",
+          "signer": "0xdef49d88002c432f7512c25a62799f89c904da54",
+          "last_updated": 0,
+          "accum": 0
+        },
+        {
+          "ID": 2,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "pubKey": "0x0434a64e5c88679fc8002ad9fa5d734be32d71b1a2c5d74bc910e63a2613046442c82c43044f2bd5b2946eb8f08dd38d473ef286df6d7e826bdbb5c4f789f57161",
+          "power": 10,
+          "signer": "0xe4b101f530f4ac942fcc49c12ef41ad1ed7ecd4b",
+          "last_updated": 0,
+          "accum": 0
+        },
+        {
+          "ID": 3,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10,
+          "pubKey": "0x046127174fdd2f37123686274431dd50e2a628ee1013d62c3e1490c7719f51be6e2ee002b0693943d34d437302d8ec5d3af6a369262180764b86be0403209397cd",
+          "signer": "0xe7ea093fc214b7f758b415a4474182599afec0c6",
+          "last_updated": 0,
+          "accum": 0
+        }
+      ],
+      "current_val_set": {
+        "validators": [
+          {
+            "ID": 1,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10,
+            "pubKey": "0x04c190d03ec6ca448617bb2a0d20cf3f9df922b87ecef79fc18aa7bbc9afc2f67c0109c706809f5cee30290433f08611af2bc0b2ec813a8cbec3fb7729e39cf71f",
+            "signer": "0xdef49d88002c432f7512c25a62799f89c904da54",
+            "last_updated": 0,
+            "accum": 0
+          },
+          {
+            "ID": 2,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "pubKey": "0x0434a64e5c88679fc8002ad9fa5d734be32d71b1a2c5d74bc910e63a2613046442c82c43044f2bd5b2946eb8f08dd38d473ef286df6d7e826bdbb5c4f789f57161",
+            "power": 10,
+            "signer": "0xe4b101f530f4ac942fcc49c12ef41ad1ed7ecd4b",
+            "last_updated": 0,
+            "accum": 0
+          },
+          {
+            "ID": 3,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10,
+            "pubKey": "0x046127174fdd2f37123686274431dd50e2a628ee1013d62c3e1490c7719f51be6e2ee002b0693943d34d437302d8ec5d3af6a369262180764b86be0403209397cd",
+            "signer": "0xe7ea093fc214b7f758b415a4474182599afec0c6",
+            "last_updated": 0,
+            "accum": 0
+          }
+        ],
+        "proposer": {
+          "ID": 1,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10,
+          "pubKey": "0x04c190d03ec6ca448617bb2a0d20cf3f9df922b87ecef79fc18aa7bbc9afc2f67c0109c706809f5cee30290433f08611af2bc0b2ec813a8cbec3fb7729e39cf71f",
+          "signer": "0xdef49d88002c432f7512c25a62799f89c904da54",
+          "last_updated": 0,
+          "accum": 0
+        }
+      },
+      "val_rewards": {
+        "1": 0
+      },
+      "checkpoint_reward": 1000000000000000000,
+      "proposer_bonus_percent": 10
+    },
+    "clerk": {
+      "event_records": []
+    }
+  }
+}
+
