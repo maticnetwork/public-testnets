@@ -8,12 +8,13 @@ To get started with the latest testnet, see the [docs](https://docs.matic.networ
 
 # Testnet Status
 
-## Pre-Stage-0
-Download the genesis file and other configrations from [here](https://github.com/maticnetwork/public-testnets/tree/master/pre-stage0)
+## CS-1000
 
-Seed nodes are available [here](https://github.com/maticnetwork/public-testnets/blob/master/pre-stage0/seeds.txt)
+Download the genesis file and other configrations from [here](https://github.com/maticnetwork/public-testnets/tree/master/CS-1000)
 
-## Stage 0
+Seed nodes are available [here](https://github.com/maticnetwork/public-testnets/blob/master/CS-1000/seeds.txt)
+
+## CS-1001
 
 To be initialised very soon!
 
