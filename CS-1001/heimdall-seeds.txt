@@ -1,0 +1,6 @@
+To Sync From Validator Node
+persistent_peers = "da771d455076976e03654ef429090c1ecf16acd3@34.202.53.230:26656"
+
+
+To Sync From Full Node
+persistent_peers = "50435251a37a356080f71f9faf8c70b33e4e653f@34.196.40.122:26656"
