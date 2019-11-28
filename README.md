@@ -19,3 +19,13 @@ Seed nodes are available [here](https://github.com/maticnetwork/public-testnets/
 Download the genesis file and other configrations from [here](https://github.com/maticnetwork/public-testnets/tree/master/CS-1001)
 
 Seed nodes are available [here](https://github.com/maticnetwork/public-testnets/blob/master/CS-1001/seeds.txt)
+
+SHA256 checksum values
+- bor-genesis.json - 9da27c06e4d6c6cafb250e391b11c8405ef9320ee8de34bb950c513d4fe94725  
+- heimdall-genesis.json - ec39316146f178e009018a2bb5005c2289c9c6f712658378ed5a6817958a585c  
+- heimdall-config.toml - 4f1c7b4e1e6921824830bcb8e17d5593369c11feb65ea26e6b6d2f2f950c148e  
+
+Command to generate SHA256 checksum. 
+```
+shasum -a 256 <filename>
+```
