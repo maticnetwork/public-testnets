@@ -4,7 +4,7 @@
 ##### RPC configrations #####
 
 # RPC endpoint for ethereum chain
-eth_RPC_URL = "https://ropsten.infura.io/v3/73d0b3b9a4b2499da81c71a2b2a473a9"
+eth_RPC_URL = "https://ropsten.infura.io/v3/<YOUR-API-KEY>"
 
 # RPC endpoint for bor chain
 bor_RPC_URL = "http://34.196.40.122:8545"
