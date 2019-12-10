@@ -28,3 +28,15 @@ Command to generate SHA256 checksum.
 ```
 shasum -a 256 <filename>
 ```
+
+Using Docker
+Start the Container
+docker run -d --name matic-heimdall -p 1317:1317 -p 26656:26656 -p 26657:26657 -it -v $(pwd)/logs:/go/src/github.com/maticnetwork/heimdall/logs maticnetwork/heimdall:CS1001 bash
+
+List of running containers
+docker ps 
+
+Go to container
+docker exec -it <container-id> bash
+
+Follow Steps 1-3 from - https://docs.matic.network/staking/join-public-testnet/
