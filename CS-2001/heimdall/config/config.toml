@@ -8,15 +8,26 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "Vaibhavs-MacBook-Air.local"
+moniker = "MacBook-Air.local"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
 # and verifying their commits
 fast_sync = true
 
-# Database backend: leveldb | memdb | cleveldb
-db_backend = "leveldb"
+# Database backend: goleveldb | cleveldb | boltdb
+# * goleveldb (github.com/syndtr/goleveldb - most popular implementation)
+#   - pure go
+#   - stable
+# * cleveldb (uses levigo wrapper)
+#   - fast
+#   - requires gcc
+#   - use cleveldb build tag (go build -tags cleveldb)
+# * boltdb (uses etcd's fork of bolt - github.com/etcd-io/bbolt)
+#   - EXPERIMENTAL
+#   - may be faster is some use-cases (random reads - indexer)
+#   - use boltdb build tag (go build -tags boltdb)
+db_backend = "goleveldb"
 
 # Database directory
 db_dir = "data"
@@ -61,7 +72,7 @@ filter_peers = false
 [rpc]
 
 # TCP or UNIX socket address for the RPC server to listen on
-laddr = "tcp://0.0.0.0:26657"
+laddr = "tcp://127.0.0.1:26657"
 
 # A list of origins a cross-domain request can be executed from
 # Default value '[]' disables cors support
@@ -115,14 +126,22 @@ max_subscriptions_per_client = 5
 # See https://github.com/tendermint/tendermint/issues/3435
 timeout_broadcast_tx_commit = "10s"
 
-# The name of a file containing certificate that is used to create the HTTPS server.
+# Maximum size of request body, in bytes
+max_body_bytes = 1000000
+
+# Maximum size of request header, in bytes
+max_header_bytes = 1048576
+
+# The path to a file containing certificate that is used to create the HTTPS server.
+# Migth be either absolute path or path related to tendermint's config directory.
 # If the certificate is signed by a certificate authority,
 # the certFile should be the concatenation of the server's certificate, any intermediates,
 # and the CA's certificate.
 # NOTE: both tls_cert_file and tls_key_file must be present for Tendermint to create HTTPS server. Otherwise, HTTP server is run.
 tls_cert_file = ""
 
-# The name of a file containing matching private key that is used to create the HTTPS server.
+# The path to a file containing matching private key that is used to create the HTTPS server.
+# Migth be either absolute path or path related to tendermint's config directory.
 # NOTE: both tls_cert_file and tls_key_file must be present for Tendermint to create HTTPS server. Otherwise, HTTP server is run.
 tls_key_file = ""
 
@@ -142,8 +161,7 @@ external_address = ""
 seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = ""
-
+persistent_peers = "5bf9faceb707a32b031f0d98833d1531b118247e@34.228.28.224:26656,3855603753e4cb7fc111d460bf0b9031217d71a1@34.194.232.160:26656,9a345b04086fa60b69a079f231c8887d14153cde@107.20.111.135:26656,09f096fabeed0d4e49e1c0e5465da29bc5ab7d21@34.232.173.231:26656,353be91662622d4b2f3b22b88d5b868ff97108e6@18.213.158.34:26656"
 # UPNP port forwarding
 upnp = false
 
@@ -208,6 +226,18 @@ max_txs_bytes = 1073741824
 
 # Size of the cache (used to filter transactions we saw earlier) in transactions
 cache_size = 10000
+
+# Maximum size of a single transaction.
+# NOTE: the max size of a tx transmitted over the network is {max_tx_bytes} + {amino overhead}.
+max_tx_bytes = 1048576
+
+##### fast sync configuration options #####
+[fastsync]
+
+# Fast Sync version to use:
+#   1) "v0" (default) - the legacy fast sync implementation
+#   2) "v1" - refactor of v0 version for better testability
+version = "v0"
 
 ##### consensus configuration options #####
 [consensus]

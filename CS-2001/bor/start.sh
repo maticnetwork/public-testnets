@@ -1,24 +1,31 @@
 #!/usr/bin/env sh
 
-ADDRESS=0xcfbC26591Af0DAe88aa7AE14D0EcAceD8f679976
-INSTANCE_DIR=$PWD/dataDir
+if [ -z "$1" ]
+  then
+    echo "Address is required as argument"
+  exit 1
+fi
+
+ADDRESS=$1
+DATA_DIR=$PWD/dataDir
 BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 
-$BUILD_DIR/bor --datadir $INSTANCE_DIR init genesis.json
-# set -x #echo on
+set -x #echo on
 
-touch $INSTANCE_DIR/bor/static-nodes.json
+$BUILD_DIR/bor --datadir $DATA_DIR init ./genesis.json
+
+cp ./static-nodes.json $DATA_DIR/bor/static-nodes.json
 
 mkdir -p logs
 
-$BUILD_DIR/bor --datadir $INSTANCE_DIR \
+$BUILD_DIR/bor --datadir $DATA_DIR \
   --port 30303 \
   --rpc --rpcaddr '0.0.0.0' \
   --rpcvhosts '*' \
   --rpccorsdomain '*' \
   --rpcport 8545 \
-  --ipcpath $INSTANCE_DIR/geth.ipc \
-  --rpcapi 'personal,db,eth,net,web3,txpool,miner,admin' \
+  --ipcpath $DATA_DIR/geth.ipc \
+  --rpcapi 'db,eth,net,web3,txpool' \
   --networkid '15002' \
   --gasprice '0' \
   --keystore ./keystore \

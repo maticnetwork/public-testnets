@@ -4,10 +4,10 @@
 ##### RPC configrations #####
 
 # RPC endpoint for ethereum chain
-eth_RPC_URL = "https://ropsten.infura.io"
+eth_RPC_URL = "https://testnet2.matic.network"
 
 # RPC endpoint for bor chain
-bor_RPC_URL = "https://testnet2.matic.network"
+bor_RPC_URL = "http://34.228.28.224:8545"
 
 
 # RPC endpoint for tendermint
@@ -29,23 +29,26 @@ heimdall_rest_server = "http://0.0.0.0:1317"
 
 ##### Contract Addresses #####
 
-### Eth Chain Contracts 
-stakemanager_contract = "0x0000000000000000000000000000000000000000" 
-rootchain_contract = "0x0000000000000000000000000000000000000000" 
-state_sender_contract = "0x0000000000000000000000000000000000000000" 
+### Eth Chain Contracts
+stakinginfo_contract = "0x0000000000000000000000000000000000000000"
+stake_manager_contract = "0xF2594f62746e1769FfAEa3164fEb5A444C187b8e"
+rootchain_contract = "0x0ced3563E98dF446863c8A8B1B798Dd2DCf38896"
+state_sender_contract = "0x9aDa557Ba0bCA418A11EaaE36F7f7922D4899Cdf"
+matic_token = "0xf25F61E749e4Cdab67E9EFABd70B229BEAaD0cF1"
 
 ### Bor Chain Contracts
-state_receiver_contract = "0000000000000000000000000000000000001001" 
-validator_set_contract = "0000000000000000000000000000000000001000" 
-
+state_receiver_contract = "0000000000000000000000000000000000001001"
+validator_set_contract = "0000000000000000000000000000000000001000"
 
 ##### Intervals #####
 child_chain_block_interval = "10000" 
 
 ## Bridge Poll Intervals 
-checkpoint_poll_interval = "1m0s" 
+checkpoint_poll_interval = "5m0s" 
 syncer_poll_interval = "1m0s"
 noack_poll_interval = "16m50s"
+clerk_polling_interval = "10s" 
+span_polling_interval = "5m0s" 
 
 
 ##### Checkpoint Length Config #####
