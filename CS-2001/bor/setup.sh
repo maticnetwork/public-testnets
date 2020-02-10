@@ -10,5 +10,6 @@ $BUILD_DIR/bor --datadir $DATA_DIR init ./genesis.json
 cp ./static-nodes.json $DATA_DIR/bor/static-nodes.json
 
 mkdir -p logs
+mkdir -p keystore
 
 echo "Setup done!"

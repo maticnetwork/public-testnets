@@ -1,4 +1,4 @@
 dataDir
 logs
-keystore/
+keystore
 password.txt
