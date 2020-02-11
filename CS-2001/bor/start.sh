@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+# set -x #echo on
+
 if [ -z "$1" ]
   then
     echo "Address is required as argument"
@@ -7,12 +9,11 @@ if [ -z "$1" ]
 fi
 
 ADDRESS=$1
-DATA_DIR=$PWD/dataDir
+BOR_DIR=${BOR_DIR:-~/.bor}
+DATA_DIR=$BOR_DIR/dataDir
 BUILD_DIR=$GOPATH/src/github.com/maticnetwork/bor/build/bin
 
-# set -x #echo on
-
-mkdir -p logs
+mkdir -p $BOR_DIR/logs
 
 $BUILD_DIR/bor --datadir $DATA_DIR \
   --port 30303 \
@@ -24,10 +25,10 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --rpcapi 'db,eth,net,web3,txpool' \
   --networkid '15002' \
   --gasprice '0' \
-  --keystore ./keystore \
+  --keystore $BOR_DIR/keystore \
   --unlock $ADDRESS \
-  --password password.txt \
+  --password $BOR_DIR/password.txt \
   --allow-insecure-unlock \
-  --mine > logs/bor.log 2>&1 &
+  --mine > $BOR_DIR/logs/bor.log 2>&1 &
 
-echo "Node started! Logs are being written to logs/bor.log"
+echo "Node started! Logs are being written to $BOR_DIR/logs/bor.log"
