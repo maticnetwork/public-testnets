@@ -16,7 +16,7 @@ tendermint_RPC_URL = "http://0.0.0.0:26657"
 ##### Chain ID configration #####
 
 # Bor chain ID
-bor_chain_id = "15001" 
+bor_chain_id = "2001" 
 
 
 ##### MQTT and Rest Server Config #####
