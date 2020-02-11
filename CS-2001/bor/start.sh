@@ -23,7 +23,7 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --rpcport 8545 \
   --ipcpath $DATA_DIR/geth.ipc \
   --rpcapi 'db,eth,net,web3,txpool' \
-  --networkid '15002' \
+  --networkid '2001' \
   --gasprice '0' \
   --keystore $BOR_DIR/keystore \
   --unlock $ADDRESS \
