@@ -32,7 +32,7 @@ heimdall_rest_server = "http://0.0.0.0:1317"
 ### Eth Chain Contracts
 stakinginfo_contract = "0xD0D89C9bc21b088e74fC9c7c7ff793a11498d316"
 stake_manager_contract = "0xC4701aCE05B5D8A821D00f790f7Bee532d5F3C61"
-rootchain_contract = "0xb26C687D70Df7c463B4E6b459560E4c50734BeCf"
+rootchain_contract = "0xe029642119840f4866F0A77B67e641AA3c20D764"
 state_sender_contract = "0x0E4Bb4ed32D330FAd5EBDf185841047d88d3c409"
 matic_token = "0xA68e9e5dde3f80057fe639952e4acfD28D6d871B"
 
