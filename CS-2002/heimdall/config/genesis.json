@@ -1,0 +1,367 @@
+{
+  "genesis_time": "2020-02-07T07:48:04.057017Z",
+  "chain_id": "heimdall-cs2002",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": ["secp256k1"]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": 256,
+        "tx_sig_limit": 7,
+        "tx_size_cost_per_byte": 10,
+        "sig_verify_cost_ed25519": 590,
+        "sig_verify_cost_secp256k1": 1000
+      },
+      "accounts": [
+        {
+          "address": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
+          "coins": [
+            {
+              "denom": "matic",
+              "amount": "10000000000000000000000000000000"
+            }
+          ],
+          "account_number": 0,
+          "sequence": 0
+        },
+        {
+          "address": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
+          "coins": [
+            {
+              "denom": "matic",
+              "amount": "10000000000000000000000000000000"
+            }
+          ],
+          "account_number": 0,
+          "sequence": 0
+        },
+        {
+          "address": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+          "coins": [
+            {
+              "denom": "matic",
+              "amount": "10000000000000000000000000000000"
+            }
+          ],
+          "account_number": 0,
+          "sequence": 0
+        },
+        {
+          "address": "0x461295d3d9249215e758e939a150ab180950720b",
+          "coins": [
+            {
+              "denom": "matic",
+              "amount": "10000000000000000000000000000000"
+            }
+          ],
+          "account_number": 0,
+          "sequence": 0
+        },
+        {
+          "address": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
+          "coins": [
+            {
+              "denom": "matic",
+              "amount": "10000000000000000000000000000000"
+            }
+          ],
+          "account_number": 0,
+          "sequence": 0
+        }
+      ]
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "bor": {
+      "sprint_duration": 64,
+      "span_duration": 6400,
+      "producer_count": 4,
+      "spans": [
+        {
+          "span_id": 0,
+          "start_block": 0,
+          "end_block": 255,
+          "validator_set": {
+            "validators": [
+              {
+                "ID": 3,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10000,
+                "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
+                "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+                "last_updated": 0,
+                "accum": -4
+              },
+              {
+                "ID": 4,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10000,
+                "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
+                "signer": "0x461295d3d9249215e758e939a150ab180950720b",
+                "last_updated": 0,
+                "accum": 1
+              },
+              {
+                "ID": 5,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10000,
+                "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
+                "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
+                "last_updated": 0,
+                "accum": 1
+              },
+              {
+                "ID": 1,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10000,
+                "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
+                "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
+                "last_updated": 0,
+                "accum": 1
+              },
+              {
+                "ID": 2,
+                "startEpoch": 0,
+                "endEpoch": 0,
+                "power": 10000,
+                "pubKey": "0x0469536ae98030a7e83ec5ef3baffed2d05a32e31d978e58486f6bdb0fbbf240293838325116090190c0639db03f9cbd8b9aecfd269d016f46e3a2287fbf9ad232",
+                "signer": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
+                "last_updated": 0,
+                "accum": 1
+              }
+            ],
+            "proposer": {
+              "ID": 3,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10000,
+              "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
+              "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+              "last_updated": 0,
+              "accum": -4
+            }
+          },
+          "selected_producers": [
+            {
+              "ID": 3,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10000,
+              "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
+              "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+              "last_updated": 0,
+              "accum": -4
+            },
+            {
+              "ID": 4,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10000,
+              "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
+              "signer": "0x461295d3d9249215e758e939a150ab180950720b",
+              "last_updated": 0,
+              "accum": 1
+            },
+            {
+              "ID": 5,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10000,
+              "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
+              "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
+              "last_updated": 0,
+              "accum": 1
+            },
+            {
+              "ID": 1,
+              "startEpoch": 0,
+              "endEpoch": 0,
+              "power": 10000,
+              "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
+              "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
+              "last_updated": 0,
+              "accum": 1
+            }
+          ],
+          "bor_chain_id": ""
+        }
+      ]
+    },
+    "checkpoint": {
+      "buffered_checkpoint": null,
+      "last_no_ack": 0,
+      "ack_count": 0,
+      "headers": null
+    },
+    "clerk": {
+      "event_records": []
+    },
+    "staking": {
+      "validators": [
+        {
+          "ID": 1,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10000,
+          "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
+          "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
+          "last_updated": 0,
+          "accum": 0
+        },
+        {
+          "ID": 2,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10000,
+          "pubKey": "0x0469536ae98030a7e83ec5ef3baffed2d05a32e31d978e58486f6bdb0fbbf240293838325116090190c0639db03f9cbd8b9aecfd269d016f46e3a2287fbf9ad232",
+          "signer": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
+          "last_updated": 0,
+          "accum": 0
+        },
+        {
+          "ID": 3,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10000,
+          "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
+          "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+          "last_updated": 0,
+          "accum": 0
+        },
+        {
+          "ID": 4,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10000,
+          "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
+          "signer": "0x461295d3d9249215e758e939a150ab180950720b",
+          "last_updated": 0,
+          "accum": 0
+        },
+        {
+          "ID": 5,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10000,
+          "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
+          "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
+          "last_updated": 0,
+          "accum": 0
+        }
+      ],
+      "current_val_set": {
+        "validators": [
+          {
+            "ID": 3,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10000,
+            "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
+            "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+            "last_updated": 0,
+            "accum": -4
+          },
+          {
+            "ID": 4,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10000,
+            "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
+            "signer": "0x461295d3d9249215e758e939a150ab180950720b",
+            "last_updated": 0,
+            "accum": 1
+          },
+          {
+            "ID": 5,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10000,
+            "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
+            "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
+            "last_updated": 0,
+            "accum": 1
+          },
+          {
+            "ID": 1,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10000,
+            "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
+            "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
+            "last_updated": 0,
+            "accum": 1
+          },
+          {
+            "ID": 2,
+            "startEpoch": 0,
+            "endEpoch": 0,
+            "power": 10000,
+            "pubKey": "0x0469536ae98030a7e83ec5ef3baffed2d05a32e31d978e58486f6bdb0fbbf240293838325116090190c0639db03f9cbd8b9aecfd269d016f46e3a2287fbf9ad232",
+            "signer": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
+            "last_updated": 0,
+            "accum": 1
+          }
+        ],
+        "proposer": {
+          "ID": 3,
+          "startEpoch": 0,
+          "endEpoch": 0,
+          "power": 10000,
+          "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
+          "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
+          "last_updated": 0,
+          "accum": -4
+        }
+      },
+      "dividend_accounts": [
+        {
+          "ID": 1,
+          "feeAmount": "0",
+          "slashedAmount": "0"
+        },
+        {
+          "ID": 2,
+          "feeAmount": "0",
+          "slashedAmount": "0"
+        },
+        {
+          "ID": 3,
+          "feeAmount": "0",
+          "slashedAmount": "0"
+        },
+        {
+          "ID": 4,
+          "feeAmount": "0",
+          "slashedAmount": "0"
+        },
+        {
+          "ID": 5,
+          "feeAmount": "0",
+          "slashedAmount": "0"
+        }
+      ]
+    },
+    "supply": {
+      "supply": {
+        "total": []
+      }
+    }
+  }
+}
