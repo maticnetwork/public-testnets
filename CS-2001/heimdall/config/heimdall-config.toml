@@ -4,10 +4,10 @@
 ##### RPC configrations #####
 
 # RPC endpoint for ethereum chain
-eth_RPC_URL = "https://ropsten.infura.io"
+eth_RPC_URL = "https://ropsten.infura.io/v3/<YOUR_INFURA_KEY>"
 
 # RPC endpoint for bor chain
-bor_RPC_URL = "https://testnet2.matic.network"
+bor_RPC_URL = "http://34.228.28.224:8545"
 
 
 # RPC endpoint for tendermint
@@ -16,7 +16,7 @@ tendermint_RPC_URL = "http://0.0.0.0:26657"
 ##### Chain ID configration #####
 
 # Bor chain ID
-bor_chain_id = "15001" 
+bor_chain_id = "2001" 
 
 
 ##### MQTT and Rest Server Config #####
@@ -29,23 +29,26 @@ heimdall_rest_server = "http://0.0.0.0:1317"
 
 ##### Contract Addresses #####
 
-### Eth Chain Contracts 
-stakemanager_contract = "0x0000000000000000000000000000000000000000" 
-rootchain_contract = "0x0000000000000000000000000000000000000000" 
-state_sender_contract = "0x0000000000000000000000000000000000000000" 
+### Eth Chain Contracts
+stakinginfo_contract = "0xD0D89C9bc21b088e74fC9c7c7ff793a11498d316"
+stake_manager_contract = "0xC4701aCE05B5D8A821D00f790f7Bee532d5F3C61"
+rootchain_contract = "0xe029642119840f4866F0A77B67e641AA3c20D764"
+state_sender_contract = "0x0E4Bb4ed32D330FAd5EBDf185841047d88d3c409"
+matic_token = "0xA68e9e5dde3f80057fe639952e4acfD28D6d871B"
 
 ### Bor Chain Contracts
-state_receiver_contract = "0000000000000000000000000000000000001001" 
-validator_set_contract = "0000000000000000000000000000000000001000" 
-
+state_receiver_contract = "0000000000000000000000000000000000001001"
+validator_set_contract = "0000000000000000000000000000000000001000"
 
 ##### Intervals #####
 child_chain_block_interval = "10000" 
 
 ## Bridge Poll Intervals 
-checkpoint_poll_interval = "1m0s" 
+checkpoint_poll_interval = "5m0s" 
 syncer_poll_interval = "1m0s"
 noack_poll_interval = "16m50s"
+clerk_polling_interval = "10s" 
+span_polling_interval = "1m0s"
 
 
 ##### Checkpoint Length Config #####
