@@ -30,11 +30,11 @@ heimdall_rest_server = "http://0.0.0.0:1317"
 ##### Contract Addresses #####
 
 ### Eth Chain Contracts
-stakinginfo_contract = "0xF1B137992B253dc8aB85C932cE06818a071461d7"
-stake_manager_contract = "0xf7Fc9C6003C24CD799117f26959a958C3093B8d0"
-rootchain_contract = "0x7cc6b9556C5900cF990e0CE9eE733D44CcC3F62e"
-state_sender_contract = "0x122c31B5Da88583420B07b8cbc69435bBdc1838C"
-matic_token = "0xF256c3383c80117706efa018C07f31C6cf958fdF"
+stakinginfo_contract = "0xC2941090c96Bc3b6072964dd6f2c00E2E4259714"
+stake_manager_contract = "0x12474F5627349Aaf23491Eafe61E8F4030be842a"
+rootchain_contract = "0x3191c70135C201707412210443Ea362BcaeE4Ee5"
+state_sender_contract = "0x3a8af4b7E331b2961B25cca9d66982B190EF3b5B"
+matic_token = "0x5A7da022B180938244FDe3e2A307de3E0e0Dbc1d"
 
 ### Bor Chain Contracts
 state_receiver_contract = "0000000000000000000000000000000000001001"
