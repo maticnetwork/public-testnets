@@ -23,12 +23,17 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --rpcport 8545 \
   --ipcpath $DATA_DIR/geth.ipc \
   --rpcapi 'db,eth,net,web3,txpool' \
-  --networkid '2004' \
+  --networkid '2005' \
   --gasprice '0' \
   --keystore $BOR_DIR/keystore \
   --unlock $ADDRESS \
   --password $BOR_DIR/password.txt \
   --allow-insecure-unlock \
+  --maxpeers 200 \
+  --metrics \
+  --pprof \
+  --pprofaddr 0.0.0.0 \ 
+  --pprofport 7071 \
   --mine > $BOR_DIR/logs/bor.log 2>&1 &
 
 echo "Node started! Logs are being written to $BOR_DIR/logs/bor.log"
