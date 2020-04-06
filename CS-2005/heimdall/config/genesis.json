@@ -416,11 +416,11 @@
         "tx_confirmation_time": "84000000000",
         "chain_params": {
           "bor_chain_id": "2005",
-          "matic_token_address": "0x0000000000000000000000000000000000000000",
-          "staking_manager_address": "0x0000000000000000000000000000000000000000",
-          "root_chain_address": "0x0000000000000000000000000000000000000000",
-          "staking_info_address": "0x0000000000000000000000000000000000000000",
-          "state_sender_address": "0x0000000000000000000000000000000000000000",
+          "matic_token_address": "0xDB449f6d9549D3E6C17B6A0349bf840a24b111ac",
+          "staking_manager_address": "0x3082cdF75E9E37302cAE133B99577EEBB596F3f8",
+          "root_chain_address": "0x802AaF6a20C3f5F1997046F1496FeAe76C6e4AD9",
+          "staking_info_address": "0x8f0aC3d5d97fD8Bb9e56B0F9d311a818Cd6aC9ee",
+          "state_sender_address": "0xE40796FA52673F06024bcF5F81c4d6654104006f",
           "state_receiver_address": "0x0000000000000000000000000000000000001001",
           "validator_set_address": "0x0000000000000000000000000000000000001000"
         }
