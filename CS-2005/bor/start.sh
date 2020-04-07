@@ -31,9 +31,7 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --allow-insecure-unlock \
   --maxpeers 200 \
   --metrics \
-  --pprof \
-  --pprofaddr 0.0.0.0 \ 
-  --pprofport 7071 \
+  --pprof --pprofport 7071 --pprofaddr '0.0.0.0' \
   --mine > $BOR_DIR/logs/bor.log 2>&1 &
 
 echo "Node started! Logs are being written to $BOR_DIR/logs/bor.log"
