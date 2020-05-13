@@ -27,8 +27,8 @@ child_chain_block_interval = "10000"
 checkpoint_poll_interval = "5m0s" 
 syncer_poll_interval = "1m0s"
 noack_poll_interval = "16m50s"
-clerk_polling_interval = "10s" 
-span_polling_interval = "1m0s"
+clerk_poll_interval = "10s" 
+span_poll_interval = "1m0s"
 
 #### gas limits ####
 main_chain_gas_limit = "5000000"
