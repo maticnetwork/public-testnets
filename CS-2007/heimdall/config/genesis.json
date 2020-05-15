@@ -103,7 +103,7 @@
       "params": {
         "sprint_duration": "64",
         "span_duration": "6400",
-        "producer_count": "4"
+        "producer_count": "11"
       },
       "spans": [
         {
