@@ -24,13 +24,10 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --ipcpath $DATA_DIR/geth.ipc \
   --rpcapi 'db,eth,net,web3,txpool,bor' \
   --networkid '2007' \
-  --miner.gasprice '1000000000' \
-  --miner.gaslimit '24000000' \
+  --miner.gaslimit '2000000000' \
   --txpool.nolocals \
   --txpool.accountslots '128' \
-  --txpool.globalslots '16384' \
-  --txpool.accountqueue '128' \
-  --txpool.globalqueue '20000' \
+  --txpool.globalslots '20000'  \
   --txpool.lifetime '0h16m0s' \
   --keystore $BOR_DIR/keystore \
   --unlock $ADDRESS \

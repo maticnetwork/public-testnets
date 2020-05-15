@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2020-02-07T07:48:04.057017Z",
+  "genesis_time": "2020-05-14T12:17:44.909792Z",
   "chain_id": "heimdall-cs2007",
   "consensus_params": {
     "block": {
@@ -34,7 +34,7 @@
           "coins": [
             {
               "denom": "matic",
-              "amount": "10000000000000000000000000000000"
+              "amount": "1000000000000000000000"
             }
           ],
           "sequence_number": "0",
@@ -47,7 +47,7 @@
           "coins": [
             {
               "denom": "matic",
-              "amount": "10000000000000000000000000000000"
+              "amount": "1000000000000000000000"
             }
           ],
           "sequence_number": "0",
@@ -60,7 +60,7 @@
           "coins": [
             {
               "denom": "matic",
-              "amount": "10000000000000000000000000000000"
+              "amount": "1000000000000000000000"
             }
           ],
           "sequence_number": "0",
@@ -73,7 +73,7 @@
           "coins": [
             {
               "denom": "matic",
-              "amount": "10000000000000000000000000000000"
+              "amount": "1000000000000000000000"
             }
           ],
           "sequence_number": "0",
@@ -86,7 +86,7 @@
           "coins": [
             {
               "denom": "matic",
-              "amount": "10000000000000000000000000000000"
+              "amount": "1000000000000000000000"
             }
           ],
           "sequence_number": "0",
@@ -116,6 +116,7 @@
                 "ID": "3",
                 "startEpoch": "0",
                 "endEpoch": "0",
+                "nonce": "1",
                 "power": "10000",
                 "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
                 "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
@@ -126,6 +127,7 @@
                 "ID": "4",
                 "startEpoch": "0",
                 "endEpoch": "0",
+                "nonce": "1",
                 "power": "10000",
                 "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
                 "signer": "0x461295d3d9249215e758e939a150ab180950720b",
@@ -136,6 +138,7 @@
                 "ID": "5",
                 "startEpoch": "0",
                 "endEpoch": "0",
+                "nonce": "1",
                 "power": "10000",
                 "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
                 "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
@@ -146,6 +149,7 @@
                 "ID": "1",
                 "startEpoch": "0",
                 "endEpoch": "0",
+                "nonce": "1",
                 "power": "10000",
                 "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
                 "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
@@ -156,6 +160,7 @@
                 "ID": "2",
                 "startEpoch": "0",
                 "endEpoch": "0",
+                "nonce": "1",
                 "power": "10000",
                 "pubKey": "0x0469536ae98030a7e83ec5ef3baffed2d05a32e31d978e58486f6bdb0fbbf240293838325116090190c0639db03f9cbd8b9aecfd269d016f46e3a2287fbf9ad232",
                 "signer": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
@@ -167,6 +172,7 @@
               "ID": "3",
               "startEpoch": "0",
               "endEpoch": "0",
+              "nonce": "1",
               "power": "10000",
               "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
               "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
@@ -179,6 +185,7 @@
               "ID": "3",
               "startEpoch": "0",
               "endEpoch": "0",
+              "nonce": "1",
               "power": "10000",
               "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
               "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
@@ -189,6 +196,7 @@
               "ID": "4",
               "startEpoch": "0",
               "endEpoch": "0",
+              "nonce": "1",
               "power": "10000",
               "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
               "signer": "0x461295d3d9249215e758e939a150ab180950720b",
@@ -199,6 +207,7 @@
               "ID": "5",
               "startEpoch": "0",
               "endEpoch": "0",
+              "nonce": "1",
               "power": "10000",
               "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
               "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
@@ -209,6 +218,7 @@
               "ID": "1",
               "startEpoch": "0",
               "endEpoch": "0",
+              "nonce": "1",
               "power": "10000",
               "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
               "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
@@ -219,6 +229,22 @@
           "bor_chain_id": "2007"
         }
       ]
+    },
+    "chainmanager": {
+      "params": {
+        "mainchain_tx_confirmations": "6",
+        "maticchain_tx_confirmations": "10",
+        "chain_params": {
+          "bor_chain_id": "2007",
+          "matic_token_address": "0x0000000000000000000000000000000000000000",
+          "staking_manager_address": "0x0000000000000000000000000000000000000000",
+          "root_chain_address": "0x0000000000000000000000000000000000000000",
+          "staking_info_address": "0x0000000000000000000000000000000000000000",
+          "state_sender_address": "0x0000000000000000000000000000000000000000",
+          "state_receiver_address": "0x0000000000000000000000000000000000001001",
+          "validator_set_address": "0x0000000000000000000000000000000000001000"
+        }
+      }
     },
     "checkpoint": {
       "params": {
@@ -233,7 +259,7 @@
     },
     "clerk": {
       "event_records": [],
-      "tx_sequences:": null
+      "record_sequences": null
     },
     "gov": {
       "starting_proposal_id": "1",
@@ -247,10 +273,10 @@
             "amount": "10000000000000000000"
           }
         ],
-        "max_deposit_period": "3600000000000"
+        "max_deposit_period": "172800000000000"
       },
       "voting_params": {
-        "voting_period": "3600000000000"
+        "voting_period": "172800000000000"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -268,6 +294,7 @@
           "ID": "1",
           "startEpoch": "0",
           "endEpoch": "0",
+          "nonce": "1",
           "power": "10000",
           "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
           "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
@@ -278,6 +305,7 @@
           "ID": "2",
           "startEpoch": "0",
           "endEpoch": "0",
+          "nonce": "1",
           "power": "10000",
           "pubKey": "0x0469536ae98030a7e83ec5ef3baffed2d05a32e31d978e58486f6bdb0fbbf240293838325116090190c0639db03f9cbd8b9aecfd269d016f46e3a2287fbf9ad232",
           "signer": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
@@ -288,6 +316,7 @@
           "ID": "3",
           "startEpoch": "0",
           "endEpoch": "0",
+          "nonce": "1",
           "power": "10000",
           "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
           "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
@@ -298,6 +327,7 @@
           "ID": "4",
           "startEpoch": "0",
           "endEpoch": "0",
+          "nonce": "1",
           "power": "10000",
           "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
           "signer": "0x461295d3d9249215e758e939a150ab180950720b",
@@ -308,6 +338,7 @@
           "ID": "5",
           "startEpoch": "0",
           "endEpoch": "0",
+          "nonce": "1",
           "power": "10000",
           "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
           "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
@@ -321,6 +352,7 @@
             "ID": "3",
             "startEpoch": "0",
             "endEpoch": "0",
+            "nonce": "1",
             "power": "10000",
             "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
             "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
@@ -331,6 +363,7 @@
             "ID": "4",
             "startEpoch": "0",
             "endEpoch": "0",
+            "nonce": "1",
             "power": "10000",
             "pubKey": "0x04d9d09f2afc9da3cccc164e8112eb6911a63f5ede10169768f800df83cf99c73f944411e9d4fac3543b11c5f84a82e56b36cfcd34f1d065855c1e2b27af8b5247",
             "signer": "0x461295d3d9249215e758e939a150ab180950720b",
@@ -341,6 +374,7 @@
             "ID": "5",
             "startEpoch": "0",
             "endEpoch": "0",
+            "nonce": "1",
             "power": "10000",
             "pubKey": "0x04a36f6ed1f93acb0a38f4cacbe2467c72458ac41ce3b12b34d758205b2bc5d930a4e059462da7a0976c32fce766e1f7e8d73933ae72ac2af231fe161187743932",
             "signer": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
@@ -351,6 +385,7 @@
             "ID": "1",
             "startEpoch": "0",
             "endEpoch": "0",
+            "nonce": "1",
             "power": "10000",
             "pubKey": "0x04a312814042a6655c8e5ecf0c52cba0b6a6f3291c87cc42260a3c0222410c0d0d59b9139d1c56542e5df0ce2fce3a86ce13e93bd9bde0dc8ff664f8dd5294dead",
             "signer": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
@@ -361,6 +396,7 @@
             "ID": "2",
             "startEpoch": "0",
             "endEpoch": "0",
+            "nonce": "1",
             "power": "10000",
             "pubKey": "0x0469536ae98030a7e83ec5ef3baffed2d05a32e31d978e58486f6bdb0fbbf240293838325116090190c0639db03f9cbd8b9aecfd269d016f46e3a2287fbf9ad232",
             "signer": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
@@ -372,6 +408,7 @@
           "ID": "3",
           "startEpoch": "0",
           "endEpoch": "0",
+          "nonce": "1",
           "power": "10000",
           "pubKey": "0x046434e10a34ade13c4fea917346a9fd1473eac2138a0b4e2a36426871918be63188fde4edbf598457592c9a49fe3b0036dd5497079495d132e5045bf499c4bdb1",
           "signer": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
@@ -390,42 +427,70 @@
       "tx_sequences": null,
       "dividend_accounts": [
         {
-          "ID": "1",
+          "user": "0x925a91f8003aaeabea6037103123b93c50b86ca3",
           "feeAmount": "0"
         },
         {
-          "ID": "2",
+          "user": "0xc787af4624cb3e80ee23ae7faac0f2acea2be34c",
           "feeAmount": "0"
         },
         {
-          "ID": "3",
+          "user": "0x1c4f0f054a0d6a1415382dc0fd83c6535188b220",
           "feeAmount": "0"
         },
         {
-          "ID": "4",
+          "user": "0x461295d3d9249215e758e939a150ab180950720b",
           "feeAmount": "0"
         },
         {
-          "ID": "5",
+          "user": "0x836fe3e3dd0a5f77d9d5b0f67e48048aaafcd5a0",
           "feeAmount": "0"
         }
       ]
     },
-    "chainmanager": {
+    "slashing": {
       "params": {
-        "mainchain_tx_confirmations": "6",
-        "maticchain_tx_confirmations": "10",
-        "chain_params": {
-          "bor_chain_id": "2007",
-          "matic_token_address": "0x6c568a7F87886491CDd9CC43858dA3F9B47199E4",
-          "staking_manager_address": "0x3CCa6E6B5c974B931DCf4217C70a9845c4Ef9D3C",
-          "root_chain_address": "0x10eDF56FDd2122FBD2E97557D90f56984774f80a",
-          "staking_info_address": "0xdAb9330e3D769F8c1D7Cc7B9537c7cf3B974FA1f",
-          "state_sender_address": "0x89f6e520fa45ad26b88aa3FCb34aC280865f5FDD",
-          "state_receiver_address": "0x0000000000000000000000000000000000001001",
-          "validator_set_address": "0x0000000000000000000000000000000000001000"
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000",
+        "slash_fraction_limit": "0.333333333333333333",
+        "jail_fraction_limit": "0.333333333333333333",
+        "max_evidence_age": "120000000000",
+        "enable_slashing": false
+      },
+      "signing_infos": {
+        "1": {
+          "valID": "1",
+          "startHeight": "0",
+          "indexOffset": "0"
+        },
+        "2": {
+          "valID": "2",
+          "startHeight": "0",
+          "indexOffset": "0"
+        },
+        "3": {
+          "valID": "3",
+          "startHeight": "0",
+          "indexOffset": "0"
+        },
+        "4": {
+          "valID": "4",
+          "startHeight": "0",
+          "indexOffset": "0"
+        },
+        "5": {
+          "valID": "5",
+          "startHeight": "0",
+          "indexOffset": "0"
         }
-      }
+      },
+      "missed_blocks": {},
+      "buffer_val_slash_info": null,
+      "tick_val_slash_info": null,
+      "tick_count": "0"
     }
   }
 }
