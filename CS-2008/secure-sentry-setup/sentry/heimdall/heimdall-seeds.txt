@@ -1,0 +1,1 @@
+persistent_peers = "<sentry-node address with format as node-id@IP:port>"
