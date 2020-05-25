@@ -8,7 +8,7 @@
 proxy_app = "tcp://127.0.0.1:26658"
 
 # A custom human readable name for this node
-moniker = "ip-20-0-1-252"
+moniker = "<change to a name of your choice (no spaces) - e.g. flagship-sentry-node>"
 
 # If this node is many blocks behind the tip of the chain, FastSync
 # allows them to catchup quickly by downloading blocks in parallel
@@ -161,7 +161,7 @@ external_address = ""
 seeds = ""
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = ""
+persistent_peers = "<replace with validator_machineNodeID@validator_instance_ip:26656>,<copy 1 peer from heimdall-seeds.txt>"
 
 # UPNP port forwarding
 upnp = false
