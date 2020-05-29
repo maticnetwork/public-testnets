@@ -17,7 +17,8 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --ipcpath $DATA_DIR/geth.ipc \
   --rpcapi 'db,eth,net,web3,txpool,bor' \
   --networkid '2008' \
-  --miner.gaslimit '20000000' \
+  --miner.gaslimit '200000000' \
+  --miner.gastarget '20000000' \
   --txpool.nolocals \
   --txpool.accountslots '128' \
   --txpool.globalslots '20000'  \

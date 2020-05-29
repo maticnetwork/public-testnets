@@ -24,7 +24,8 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --ipcpath $DATA_DIR/geth.ipc \
   --rpcapi 'db,eth,net,web3,txpool,bor' \
   --networkid '2008' \
-  --miner.gaslimit '2000000000' \
+  --miner.gaslimit '200000000' \
+  --miner.gastarget '20000000' \
   --txpool.nolocals \
   --txpool.accountslots '128' \
   --txpool.globalslots '20000'  \
@@ -33,7 +34,7 @@ $BUILD_DIR/bor --datadir $DATA_DIR \
   --unlock $ADDRESS \
   --password $BOR_DIR/password.txt \
   --allow-insecure-unlock \
-  --maxpeers 200 \
+  --nodiscover --maxpeers 1 \
   --metrics \
   --pprof --pprofport 7071 --pprofaddr '0.0.0.0' \
   --mine > $BOR_DIR/logs/bor.log 2>&1 &
