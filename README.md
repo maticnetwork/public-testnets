@@ -1,3 +1,5 @@
+**This project is deprecated. Use the current [Bor](https://github.com/maticnetwork/bor) and [Heimdall](https://github.com/maticnetwork/heimdall) clients.**
+
 # Matic Public Testnets
 
 This repo collects the genesis and configuration files for the various Matic testnets. It exists to lock down versions and update genesis files and other essential configrations for various testnets.
